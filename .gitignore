@@ -11,6 +11,7 @@
 *.iws
 /dumps
 src/generated/**
+/build
 
 # gradle
 .gradle
