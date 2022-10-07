@@ -1,0 +1,17 @@
+.idea
+.vscode
+/nbactions.xml
+/target/
+.settings
+.classpath
+.project
+.DS_Store
+*.iml
+*.ipr
+*.iws
+/dumps
+src/generated/**
+
+# gradle
+.gradle
+/gradle

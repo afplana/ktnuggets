@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.owndev.ktnuggets.designpattern.AbstractFactoryTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-10-07T10:04:43" hostname="Alains-MacBook-Pro.local" time="0.033">
+  <properties/>
+  <testcase name="should build a range price configuration()" classname="io.owndev.ktnuggets.designpattern.AbstractFactoryTest" time="0.032"/>
+  <testcase name="should build a fixed price configuration()" classname="io.owndev.ktnuggets.designpattern.AbstractFactoryTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+</testsuite>
