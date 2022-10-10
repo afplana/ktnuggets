@@ -1,3 +1,5 @@
+@file:Suppress("unused")
+
 package io.owndev.ktnuggets.extension
 
 import com.google.gson.Gson
