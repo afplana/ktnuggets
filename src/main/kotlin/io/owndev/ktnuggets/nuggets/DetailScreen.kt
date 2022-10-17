@@ -55,3 +55,59 @@ enum class TitleType {
 
 val details = detailScreen {
 }
+
+val json = """
+  “title”: “Fixed price”,
+  “orderingArray”: [
+    {
+      “id”: “1”,
+      “type”: “OneLine”
+    },
+    {
+      “id”: “0”,
+      “type”: “Text”
+    },
+    {
+      “id”: “2”,
+      “type”: “TwoLine”
+    }
+  ],
+  
+  “Text”: [
+    {
+      “id”: “0",
+      “variant”: “Info”,
+      “titleText”: “This is a fixed price based on your pick-up point and destination. Please note that the actual fare might vary if your trip takes much longer than estimated.”
+    }
+  ],
+  
+  “OneLine”: [
+    {
+      “id”: “2”,
+      “variant”: “WithValue”,
+      “titleText”: “Base price”,
+      “valueText”: “5.23 €”
+    },
+    {
+      “id”: “3”,
+      “variant”: “Info”,
+      “titleText”: “Duration”,
+      “valueText”: “14.08 €“,
+      “icon”: “”
+    }
+  ],
+  
+  “TwoLine”: [
+    {
+      “id”: “3”,
+      “variant”: “Info”,
+      “titleText”: “Duration”,
+      “descriptionText”: “57min x 0.25 €/min”,
+      “valueText”: “14.08 €“,
+      “longDescriptionText”: “14.08 €“,
+      “icon”: “”
+    }
+    
+  ]
+} 
+"""
