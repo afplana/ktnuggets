@@ -14,7 +14,7 @@ repositories {
 }
 
 dependencies {
-    implementation("io.github.microutils:kotlin-logging-jvm:3.0.0")
+    implementation("io.github.microutils:kotlin-logging-jvm:3.0.2")
     implementation("com.google.code.gson:gson:2.9.1")
     implementation("io.ktor:ktor-server-core:2.1.2")
     implementation("io.ktor:ktor-server-netty:2.1.2")
