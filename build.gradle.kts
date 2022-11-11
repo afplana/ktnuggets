@@ -14,12 +14,13 @@ repositories {
 }
 
 dependencies {
-    implementation("io.github.microutils:kotlin-logging-jvm:3.0.2")
-    implementation("com.google.code.gson:gson:2.9.1")
-    implementation("io.ktor:ktor-server-core:2.1.2")
-    implementation("io.ktor:ktor-server-netty:2.1.2")
+    implementation("io.github.microutils:kotlin-logging-jvm:3.0.4")
+    implementation("com.google.code.gson:gson:2.10")
+    implementation("io.ktor:ktor-server-core:2.1.3")
+    implementation("io.ktor:ktor-server-netty:2.1.3")
 
     testImplementation(kotlin("test"))
+    testImplementation("io.mockk:mockk:1.13.2")
 }
 
 tasks.test {
