@@ -1,4 +1,4 @@
-package io.owndev.ktnuggets.nuggets
+package io.owndev.ktnuggets.nuggets.priority
 
 import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.flow.Flow
@@ -17,8 +17,4 @@ class MaxPrioritySelector(
             else value
         }
     }
-}
-
-interface Prioritized {
-    val priority: Long
 }
