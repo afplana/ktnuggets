@@ -9,18 +9,27 @@ plugins {
 group = "io.owndev"
 version = "1.0-SNAPSHOT"
 
+// properties
+val kotestVersion="5.5.4"
+val kotlinLoggingVersion="3.0.4"
+
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    implementation("io.github.microutils:kotlin-logging-jvm:3.0.4")
+    implementation("io.github.microutils:kotlin-logging-jvm:$kotlinLoggingVersion")
     implementation("com.google.code.gson:gson:2.10")
     implementation("io.ktor:ktor-server-core:2.1.3")
     implementation("io.ktor:ktor-server-netty:2.1.3")
 
+    implementation("org.jetbrains.kotlin:kotlin-stdlib")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
+
     testImplementation(kotlin("test"))
     testImplementation("io.mockk:mockk:1.13.2")
+    testImplementation("io.kotest:kotest-runner-junit5:$kotestVersion")
+    testImplementation("io.kotest:kotest-assertions-core:$kotestVersion")
 }
 
 tasks.test {
